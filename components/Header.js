@@ -3,8 +3,7 @@ import Logo from './Logo'
 import SearchBar from './SearchBar'
 import UserActions from './UserActions'
 
-export default function
-    () {
+export default function Header() {
     return (
         <div className='flex bg-yt-dark text-white justify-between px-6'>
             <Logo />
